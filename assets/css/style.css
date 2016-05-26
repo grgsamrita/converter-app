@@ -1,108 +1,28 @@
 body{
 	font-family: Calibri;
 }
-.wrapper{
-	margin: auto;
+
+#csv{
+	margin-left:20px;
+}
+#json{
+	margin-left:20px;
 }
 
-#header{
-	height: 100px;
-	background-color: rgba(86,61,124,.15);
-}
+#submit-csv{	
+	padding: 10px 30px;
+	width: 30%;
+	margin-bottom: 10px;
 
-#header-title{
-	
-	font-size: 50px;
-	font-color: blue;
-	padding-left: 20px;
-}
-
-#nav{
-	margin-top:10px;
-	float: right;
-	padding: 15px;
-}
-
-li{
-	list-style: none;
-   
-    float: left;
-   
-    text-align: -webkit-match-parent;
-    margin-top:-40px;
-    display:block;    
-
-}
-
-a:hover{
-	text-decoration: none;
-	display: block;
-}
-
-#nav ul li a:hover{
-    
-    color:#f02279;	
-}
-
-#content{
-	margin: auto;
-	
-	/*margin-bottom: 50px;*/
-	
-
-}
-
-.container{
-	
-	margin-top: 30px;
-	/*background-color: #dddadb;*/
-	border-radius: 4px;
-	border: 1px solid #e8e8e8;
-	margin-bottom: 50px;
-}
-
-.btn{
-	background-color: #337ab7;
-	color: white;
-}
-
-.h3-login{
-	padding-bottom: 10px;
-	text-align: center;
-}
-
-.access-page{
-	text-align: center;
-	color: red;
-	padding-top: 10px;
-}
-
-.footer{
-	height: 100px;
-	background-color: #e3e1e2;
-	color: #062140;
-	font-size: 20px;
-	padding-left: 15px;
-	padding-top: 15px;
 }
 
 #submit-json{
 	
-	padding: 14px 35px;
+	padding: 10px 30px;
+	width: 30%;
+	margin-bottom: 10px;
 }
 
-#submit-json{
-	
-	padding: 14px 35px;
-}
-
-#display-account{
-	margin-top: 30px;
-	margin-left: 30px;
-	margin-right: 30px;
-	/*width:900px;*/
-	
-}
 
 
 
@@ -110,11 +30,12 @@ table{
 	border-radius: 4px;
 	border: 2px solid #e8e8e8;
 	color: #4b535d;
+	margin-top:	20px;
 }
 
 td{
 	padding: 15px 15px 15px 15px;
-	background-color: #d9dadc;
+	/*background-color: #d9dadc;*/
 	border-bottom: 1px solid #c7c9cb;
 	text-align: center;
 }
@@ -123,7 +44,7 @@ td{
  td h1{
  	text-align: center;
  	
- 	color: black;
+ 	color: grey;
  	
  }
 

@@ -8,7 +8,7 @@
 	
 </head>
 </body>
-<table width="600" align="center" style="margin-top:10px;">
+<table width="600" align="center">
 <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post" enctype="multipart/form-data">
 <tr>
 	<td colspan="2px"><h1>File Converter</h1></td>
@@ -21,13 +21,13 @@
 	<td colspan="2px">
 		<div id="csvtojson">
 			<label>Choose csv file</label>
-			<input type="file" name="csvtojson"/>
-			<input type="submit" name="submit-csv" id="submit-csv"/>
+			<input type="file" name="csvtojson" id="csv"/><br/>
+			<input type="submit" name="submit-csv" class="btn btn-default" style="background-color:lightgrey;" id="submit-csv"/>
 		</div>
 		<div id="jsontocsv">
-			<label>Choose json file</label>
-			<input type="file" name="jsontocsv"/>
-			<input type="submit" name="submit-json" id="submit-json" />
+			<label >Choose json file</label>
+			<input type="file" name="jsontocsv" id="json"/><br/>
+			<input type="submit" name="submit-json" class="btn btn-default" style="background-color:lightgrey;" id="submit-json" />
 		</div>
 	</td>
 </tr>
@@ -36,7 +36,8 @@
 </form>
 </table>
 <?php
-	include('convert.php');
+	include('converter/convert-tojson.php');
+	include('converter/convert-tocsv.php');
 ?>
 </body>
 <script>
